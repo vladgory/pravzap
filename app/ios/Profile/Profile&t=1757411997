@@ -126,9 +126,9 @@
     "banners": [
         {
             "title": "Пример",
-            "image": "https://nampp.ru/app/src/banner.png",
+            "image": "https://pravzap.ru/app/src/banner.png",
             "image_ratio": 3.72826087,
-            "url": "https://nampp.ru",
+            "url": "https://pravzap.ru",
             "partner_id": "",
             "sort": 1,
             "slug": "primer"
