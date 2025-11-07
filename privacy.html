@@ -46,33 +46,6 @@
             transition: width 0.1s ease-out;
         }
 
-        /* Theme Toggle */
-        .theme-toggle {
-            position: fixed;
-            top: 90px;
-            right: 2rem;
-            z-index: 1001;
-            background: var(--cell);
-            border: 2px solid var(--separator);
-            border-radius: 50px;
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .theme-toggle:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .theme-icon {
-            font-size: 1.2rem;
-        }
-
         /* Header */
         header {
             position: fixed;
@@ -258,12 +231,7 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .theme-toggle {
-                top: 80px;
-                right: 1rem;
-                padding: 0.4rem 0.8rem;
-                font-size: 0.9rem;
-            }
+
 
             .header-container {
                 padding: 0 1rem;
@@ -359,8 +327,6 @@
         </p>
         <ul>
             <li>Контактная информация (телефон, email, ФИО)</li>
-            <li>Сведения о транспортном средстве (марка, модель, госномер, год выпуска)</li>
-            <li>Геолокационные данные для поиска ближайших сервисов</li>
             <li>История транзакций и операций с бонусными баллами</li>
             <li>Статистика использования приложения и предпочтения</li>
             <li>Техническая информация об устройстве (модель, ОС, версия приложения)</li>
@@ -376,7 +342,6 @@
             <li>Создание и обслуживание виртуальной карты лояльности</li>
             <li>Персонализация контента и специальных предложений</li>
             <li>Информирование о новых акциях и выгодных предложениях партнеров</li>
-            <li>Поиск ближайших партнерских заправок и сервисов на основе геолокации</li>
             <li>Обеспечение технической поддержки пользователей</li>
             <li>Анализ эффективности работы приложения и улучшение пользовательского опыта</li>
             <li>Выполнение требований действующего законодательства</li>
